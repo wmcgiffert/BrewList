@@ -1,3 +1,15 @@
+# BrewList -Name pending-
+## Idea: A single place for a user to add recipes for beer or kombucha that youve brewed
+### TODO: 
+- Add DB
+- Decide on a Schema
+- 
+
+# Hosted on Vercel
+## https://brew-list-2h6qz289t-wmcgiffert.vercel.app/
+
+
+# Sveltekit Info
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
