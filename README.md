@@ -1,4 +1,6 @@
 # BrewList -Name pending-
+Brain Child of Ryan DeVault and John Peden
+
 ## Idea: A single place for a user to add recipes for beer or kombucha that youve brewed
 ### TODO: 
 - Add DB
