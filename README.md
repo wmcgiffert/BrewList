@@ -1,3 +1,19 @@
+# BrewList -Name pending-
+Brain Child of Ryan DeVault and John Peden
+
+## Idea: A single place for a user to add recipes for beer or kombucha that they've brewed
+### TODO: 
+- Add DB
+- Decide on a Schema
+- Auth
+- Receipes
+- Ratings
+
+# Hosted on Vercel
+## https://brew-list-2h6qz289t-wmcgiffert.vercel.app/
+
+
+# Sveltekit Info
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
