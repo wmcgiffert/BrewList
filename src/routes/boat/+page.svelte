@@ -11,4 +11,5 @@
   <input type="text" name="boatName">
   <button type="submit">Submit</button>
   <button formaction="?/capitalize">Capitalize</button>
+  <button formaction="?/reset">Reset</button>
 </form>

@@ -1,11 +1,14 @@
 import type { PageServerLoad, Actions } from './$types';
 
 export const load = (async ({ cookies }) => {
-    const boatName = cookies.get('boatName');    
+    if(!cookies.get('boatName')){
+        cookies.set('boatName', 'The Black Pearl', { path: '/' });
+    }
+    const boatName = cookies.get('boatName');
+    console.log(cookies.get('boatName'));
     return {
         boatName
     };
-
 }) satisfies PageServerLoad;
 
 export const actions = {
@@ -17,6 +20,8 @@ export const actions = {
     capitalize: async ({ cookies }) => {
         const boatName = cookies.get('boatName') as string;
         cookies.set('boatName', boatName.toUpperCase(), { path: '/' });
+    },
+    reset: async ({ cookies }) => {
+        cookies.set('boatName', 'The Black Pearl', { path: '/' });
     }
-
 } satisfies Actions;
