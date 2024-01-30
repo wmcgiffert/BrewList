@@ -1,7 +1,7 @@
 import type { PageServerLoad, Actions } from './$types';
 
 export const load = (async ({ cookies }) => {
-    if(!cookies.get('boatName')){
+    if (!cookies.get('boatName')) {
         cookies.set('boatName', 'The Black Pearl', { path: '/' });
     }
     const boatName = cookies.get('boatName');
@@ -22,6 +22,7 @@ export const actions = {
         cookies.set('boatName', boatName.toUpperCase(), { path: '/' });
     },
     reset: async ({ cookies }) => {
-        cookies.set('boatName', 'The Black Pearl', { path: '/' });
+        const data = 'Cookie has been reset';
+        cookies.set('boatName', data, { path: '/' });
     }
 } satisfies Actions;
