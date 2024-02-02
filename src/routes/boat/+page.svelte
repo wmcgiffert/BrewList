@@ -8,10 +8,10 @@
 <h1>{data.boatName}</h1>
 
 <form method="post" action="?/rename" use:enhance>
-  <input type="text" name="boatName">
-  <button type="submit">Submit</button>
-  <button formaction="?/capitalize">Capitalize</button>
-  <button formaction="?/reset">Reset</button>
+  <input  class="input input-bordered w-full max-w-xs" type="text" name="boatName">
+  <button class=" btn" type="submit">Submit</button>
+  <button class=" btn" formaction="?/capitalize">Capitalize</button>
+  <button class=" btn" formaction="?/reset">Reset</button>
 </form>
 
 <a class="" href="/">Go to Homepage</a>

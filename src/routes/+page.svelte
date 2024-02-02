@@ -6,8 +6,3 @@
 <a href="/boat">Go To Boat</a>
 
 
-<style lang="postcss">
-    :global(html) {
-        background-color: theme('colors.gray.100');
-    }
-</style>
