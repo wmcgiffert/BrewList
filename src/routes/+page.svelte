@@ -1,8 +1,8 @@
-<h1 class="text-green-400 font-bold underline">Welcome to SvelteKit</h1>
-<p class= "text-g">
+<h1 class=" text-green-400 font-bold underline">Welcome to SvelteKit</h1>
+<p class=" text-green-500">
     Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation
 </p>
-<p>Hi Mom!</p>
+<p class=" text-3xl">Hi Mom!</p>
 <a href="/boat">Go To Boat</a>
 
 <style lang="postcss">
