@@ -13,3 +13,5 @@
   <button formaction="?/capitalize">Capitalize</button>
   <button formaction="?/reset">Reset</button>
 </form>
+
+<a class="" href="/">Go to Homepage</a>

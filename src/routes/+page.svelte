@@ -5,8 +5,9 @@
 <p class=" text-yellow-400 text-6xl">Hi Mom!</p>
 <a href="/boat">Go To Boat</a>
 
+
 <style lang="postcss">
     :global(html) {
-        background-color: theme('colors.gray.900');
+        background-color: theme('colors.gray.100');
     }
 </style>
