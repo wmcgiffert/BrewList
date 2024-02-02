@@ -1,5 +1,5 @@
 <h1 class="text-green-400 font-bold underline">Welcome to SvelteKit</h1>
-<p>
+<p class= "text-g">
     Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation
 </p>
 <p>Hi Mom!</p>
