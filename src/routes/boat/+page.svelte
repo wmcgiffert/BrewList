@@ -7,6 +7,7 @@
 
 <h1>{data.boatName}</h1>
 
+
 <form method="post" action="?/rename" use:enhance>
   <input  class="input input-bordered w-full max-w-xs" type="text" name="boatName">
   <button class=" btn" type="submit">Submit</button>
