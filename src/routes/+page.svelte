@@ -4,5 +4,7 @@
 </p>
 <p class=" text-yellow-400 text-6xl">Hi Mom!</p>
 <a href="/boat">Go To Boat</a>
+<a href="/login">Go To Login</a>
+
 
 
